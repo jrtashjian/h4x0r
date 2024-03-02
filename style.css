@@ -43,6 +43,7 @@ Text Domain: h4x0r
 
 /* element: links  */
 .wp-site-blocks a {
+	color: var(--wp--preset--color--primary) !important;
 	text-decoration: underline solid var(--wp--preset--spacing--10) !important;
 	text-underline-offset: var(--wp--preset--spacing--20);
 }
@@ -201,10 +202,10 @@ Text Domain: h4x0r
 }
 .wp-block-post-comments-form input:not([type="checkbox"]):focus-visible,
 .wp-block-post-comments-form textarea:focus-visible {
-	outline: var(--wp--preset--spacing--10) solid var(--wp--preset--color--primary);
+	outline: 2px solid var(--wp--preset--color--primary);
 }
 .wp-block-post-comments-form input:is([type="submit"]):focus-visible {
-	outline-offset: var(--wp--preset--spacing--10);
+	outline-offset: 2px;
 }
 
 /* category-photos template */
