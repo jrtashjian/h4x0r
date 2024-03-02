@@ -352,7 +352,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-monospace)",
-			"fontSize": "18px",
+			"fontSize": "clamp(1rem, 0.867rem + 0.5674vw, 1.25rem)",
 			"lineHeight": "2"
 		}
 	},
