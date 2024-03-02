@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Default Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#1a1a1a",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#F6F6F6",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#7fff7f",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#0099cc",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "#4B4B4B",
+					"name": "Midtone",
+					"slug": "midtone"
+				}
+			]
+		}
+    }
+}
