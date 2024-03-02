@@ -20,13 +20,13 @@
 				},
 				{
 					"color": "#CBCBCB",
-					"name": "Base Muted",
-					"slug": "base-muted"
+					"name": "Midtone",
+					"slug": "midtone"
 				},
 				{
 					"color": "#C03000",
-					"name": "Code and Quoted",
-					"slug": "code-quoted"
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		},
@@ -249,7 +249,7 @@
 			"core/code": {
 				"border": {
 					"left": {
-						"color": "var(--wp--preset--color--base-muted)",
+						"color": "var(--wp--preset--color--midtone)",
 						"style": "solid",
 						"width": "1ch"
 					}
