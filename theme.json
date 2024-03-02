@@ -9,24 +9,24 @@
 					"slug": "base"
 				},
 				{
-					"color": "#202020",
+					"color": "#1a1a1a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#0050C0",
+					"color": "#007acc",
 					"name": "Primary",
 					"slug": "primary"
-				},
-				{
-					"color": "#CBCBCB",
-					"name": "Midtone",
-					"slug": "midtone"
 				},
 				{
 					"color": "#C03000",
 					"name": "Accent",
 					"slug": "accent"
+				},
+				{
+					"color": "#CBCBCB",
+					"name": "Midtone",
+					"slug": "midtone"
 				}
 			]
 		},
