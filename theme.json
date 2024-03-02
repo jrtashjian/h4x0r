@@ -220,17 +220,17 @@
 						}
 					}
 				},
-				"shadow": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+				"shadow": "1ch 1ch 0px rgba(0, 0, 0, 0.2)",
 				"spacing": {
 					"padding": {
-						"bottom": "1rem",
-						"left": "1rem",
-						"right": "1rem",
-						"top": "1rem"
+						"bottom": "1ch",
+						"left": "1ch",
+						"right": "1ch",
+						"top": "1ch"
 					}
 				},
 				"typography": {
-					"fontSize": "1rem",
+					"fontSize": "1em",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"lineHeight": "1",
@@ -240,7 +240,7 @@
 			},
 			"core/buttons": {
 				"spacing": {
-					"blockGap": "1rem"
+					"blockGap": "2ch"
 				},
 				"typography": {
 					"textDecoration": "none"
