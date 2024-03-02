@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Solarized Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#002B36",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#839496",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#eee8d5",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#1A4049",
+					"name": "Midtone",
+					"slug": "midtone"
+				},
+				{
+					"color": "#dc322f",
+					"name": "Accent",
+					"slug": "accent"
+				}
+			]
+		}
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Solarized Light",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#fdf6e3",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#657b83",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#073642",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#DFDDD0",
+					"name": "Midtone",
+					"slug": "midtone"
+				},
+				{
+					"color": "#cb4b16",
+					"name": "Accent",
+					"slug": "accent"
+				}
+			]
+		}
+    }
+}
