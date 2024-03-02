@@ -35,6 +35,12 @@ Text Domain: h4x0r
 	background-size: 100% 2px, 3px 100%;
 }
 
+/* Reset font sizing */
+.wp-block-social-links,
+.wp-block-social-links .wp-social-link span:not(.screen-reader-text) {
+	font-size: 1em;
+}
+
 /* element: links  */
 .wp-site-blocks a {
 	text-decoration: underline !important;
