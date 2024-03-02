@@ -1,0 +1,35 @@
+{
+	"version": 2,
+	"title": "Cyberpunk",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#0f0f23",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#c7c7ff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ff3cff",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#333366",
+					"name": "Midtone",
+					"slug": "midtone"
+				},
+				{
+					"color": "#00ffcc",
+					"name": "Accent",
+					"slug": "accent"
+				}
+			]
+		}
+	}
+}
