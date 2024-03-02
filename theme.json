@@ -35,12 +35,45 @@
 			"wideSize": "65ch"
 		},
 		"spacing": {
+			"customSpacingSize": false,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "1",
+					"size": "0.125em",
+					"slug": "10"
+				},
+				{
+					"name": "2",
+					"size": "0.25em",
+					"slug": "20"
+				},
+				{
+					"name": "3",
+					"size": "0.5em",
+					"slug": "30"
+				},
+				{
+					"name": "4",
+					"size": "1em",
+					"slug": "40"
+				},
+				{
+					"name": "5",
+					"size": "2em",
+					"slug": "50"
+				},
+				{
+					"name": "6",
+					"size": "4em",
+					"slug": "60"
+				}
+			],
 			"units": [
 				"px",
 				"em",
-				"rem",
-				"vh",
-				"vw",
 				"%",
 				"ch"
 			]
