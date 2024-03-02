@@ -102,7 +102,7 @@ Text Domain: h4x0r
 
 .wp-block-post-content pre {
 	overflow: auto;
-	padding: var(--wp--preset--font-size--normal) 0 var(--wp--preset--font-size--normal) var(--wp--preset--font-size--normal);
+	padding: var(--wp--preset--font-size--normal) 0 var(--wp--preset--font-size--normal) 1ch;
 }
 
 /* wp:quote */
@@ -149,13 +149,21 @@ Text Domain: h4x0r
 }
 
 /* wp:table */
-.wp-block-post-content table { border-collapse: collapse; }
+.wp-block-table table,
+.wp-block-post-content table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.wp-block-table table thead,
 .wp-block-post-content table thead {
 	border-bottom: var(--wp--preset--spacing--20) solid var(--wp--preset--color--midtone);
 }
+.wp-block-table table tfoot,
 .wp-block-post-content table tfoot {
 	border-top: var(--wp--preset--spacing--20) solid var(--wp--preset--color--midtone);
 }
+.wp-block-table table th,
+.wp-block-table table td,
 .wp-block-post-content table th,
 .wp-block-post-content table td {
 	padding: 0 1ch;
