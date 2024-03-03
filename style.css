@@ -198,6 +198,10 @@ Text Domain: h4x0r
 .wp-block-social-links.is-style-logos-only .wp-block-social-link {
 	color: currentColor;
 }
+.wp-block-social-links.is-style-logos-only .wp-social-link svg {
+	width: 1em;
+	height: 1em;
+}
 .wp-block-social-links .wp-social-link span:not(.screen-reader-text) {
 	margin-left: .5em;
 	margin-right: 0;
