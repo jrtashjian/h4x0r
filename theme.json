@@ -306,6 +306,11 @@
 						"top": "2rem"
 					}
 				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"lineHeight": "1"
+				}
 			}
 		},
 		"color": {
