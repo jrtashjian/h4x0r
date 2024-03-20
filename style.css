@@ -1,5 +1,5 @@
 /*
-Theme Name: H4x0r
+Theme Name: h4x0r
 Theme URI: https://github.com/jrtashjian/h4x0r
 Author: JR Tashjian
 Author URI: https://jrtashjian.com
@@ -172,23 +172,6 @@ Text Domain: h4x0r
 .wp-block-post-content table td {
 	padding: 0 1ch;
 	border: var(--wp--preset--spacing--10) solid var(--wp--preset--color--midtone);
-}
-
-/* wp:separator */
-.wp-block-separator {
-	position: relative;
-	border: none;
-	height: var(--wp--style--block-gap);
-	opacity: 0.5;
-}
-.wp-block-separator::before {
-	content: "========================================================================================================================";
-	top: 0;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	word-break: break-all;
-	position: absolute;
 }
 
 /* wp:social-links */
