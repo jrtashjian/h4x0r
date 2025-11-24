@@ -1,9 +1,8 @@
 {
-	"core": "https://wordpress.org/wordpress-6.4.3.zip",
-	"plugins": [
-		"https://downloads.wordpress.org/plugin/create-block-theme.1.13.8.zip"
-	],
-	"themes": [
-		"."
-	]
+    "plugins": [
+        "https://downloads.wordpress.org/plugin/create-block-theme.2.7.0.zip"
+    ],
+    "themes": [
+        "."
+    ]
 }
