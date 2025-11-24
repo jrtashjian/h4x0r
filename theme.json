@@ -36,9 +36,7 @@
 		},
 		"spacing": {
 			"customSpacingSize": false,
-			"spacingScale": {
-				"steps": 0
-			},
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
 					"name": "1",
@@ -397,6 +395,6 @@
 			"lineHeight": "2"
 		}
 	},
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }
