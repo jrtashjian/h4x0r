@@ -93,7 +93,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/roboto-mono_normal_400.ttf"
+								"file:./assets/fonts/roboto-mono/roboto-mono_normal_400.ttf"
 							]
 						},
 						{
@@ -101,7 +101,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/roboto-mono_italic_400.ttf"
+								"file:./assets/fonts/roboto-mono/roboto-mono_italic_400.ttf"
 							]
 						},
 						{
@@ -109,7 +109,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/roboto-mono_normal_700.ttf"
+								"file:./assets/fonts/roboto-mono/roboto-mono_normal_700.ttf"
 							]
 						},
 						{
@@ -117,7 +117,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/roboto-mono_italic_700.ttf"
+								"file:./assets/fonts/roboto-mono/roboto-mono_italic_700.ttf"
 							]
 						}
 					],
@@ -131,7 +131,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/fira-code_normal_400.ttf"
+								"file:./assets/fonts/fira-code/fira-code_normal_400.ttf"
 							]
 						},
 						{
@@ -139,7 +139,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/fira-code_normal_700.ttf"
+								"file:./assets/fonts/fira-code/fira-code_normal_700.ttf"
 							]
 						}
 					],
@@ -153,7 +153,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/jetbrains-mono_normal_400.ttf"
+								"file:./assets/fonts/jetbrains-mono/jetbrains-mono_normal_400.ttf"
 							]
 						},
 						{
@@ -161,7 +161,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/jetbrains-mono_normal_700.ttf"
+								"file:./assets/fonts/jetbrains-mono/jetbrains-mono_normal_700.ttf"
 							]
 						},
 						{
@@ -169,7 +169,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/jetbrains-mono_italic_400.ttf"
+								"file:./assets/fonts/jetbrains-mono/jetbrains-mono_italic_400.ttf"
 							]
 						},
 						{
@@ -177,7 +177,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/jetbrains-mono_italic_700.ttf"
+								"file:./assets/fonts/jetbrains-mono/jetbrains-mono_italic_700.ttf"
 							]
 						}
 					],
@@ -191,7 +191,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/source-code-pro_normal_400.ttf"
+								"file:./assets/fonts/source-code-pro/source-code-pro_normal_400.ttf"
 							]
 						}
 					],
@@ -205,7 +205,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/noto-sans-mono_normal_400.ttf"
+								"file:./assets/fonts/noto-sans-mono/noto-sans-mono_normal_400.ttf"
 							]
 						},
 						{
@@ -213,7 +213,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/noto-sans-mono_normal_700.ttf"
+								"file:./assets/fonts/noto-sans-mono/noto-sans-mono_normal_700.ttf"
 							]
 						}
 					],
