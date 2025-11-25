@@ -310,7 +310,7 @@
 				"css": "& {\n  padding-left: 3ch;\n}\n\n&:is(ul,ol) ul {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n&:is(ul) > li::marker {\n  content: \"+ \";\n}"
 			},
 			"core/post-title": {
-				"css": "display: inline;"
+				"css": ""
 			},
 			"core/preformatted": {
 				"css": "overflow: auto;\npadding: var(--wp--preset--font-size--normal) 0 var(--wp--preset--font-size--normal) 1ch;"
