@@ -3,7 +3,7 @@ Theme Name: h4x0r
 Theme URI: https://github.com/jrtashjian/h4x0r
 Author: JR Tashjian
 Author URI: https://jrtashjian.com
-Description: THEME DESCRIPTION
+Description: h4x0r is a hacker-inspired WordPress theme with a terminal-like aesthetic. It includes multiple color schemes such as Cyberpunk, Dracula, and Solarized Dark. The theme uses monospace fonts including Fira Code, JetBrains Mono, and Source Code Pro.
 Requires at least: 6.8
 Tested up to: 6.8
 Requires PHP: 7.4
@@ -11,4 +11,5 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: h4x0r
+Tags: blog, block-patterns, block-styles, full-site-editing, custom-background, custom-colors, editor-style, style-variations, one-column
 */

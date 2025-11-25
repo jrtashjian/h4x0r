@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-THEME DESCRIPTION
+h4x0r is a hacker-inspired WordPress theme with a terminal-like aesthetic. It includes multiple color schemes such as Cyberpunk, Dracula, and Solarized Dark. The theme uses monospace fonts including Fira Code, JetBrains Mono, and Source Code Pro.
 
 
 == Recommended Plugins ==
