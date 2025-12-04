@@ -5,12 +5,11 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-1024x683.jpeg" alt="" class="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-1024x683.jpeg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -40,7 +39,7 @@ echo sprintf( esc_html__( '01100011 01101111 01100100 01100101%1$s01101001 01110
 <!-- wp:query {"queryId":0,"query":{"perPage":"100","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top","orientation":"horizontal"}} -->
-<div class="wp-block-group"><!-- wp:post-date {"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+<div class="wp-block-group"><!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
 <!-- wp:post-title {"isLink":true,"className":"nowrap","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"layout":{"selfStretch":"fill","flexSize":null}}} /--></div>
 <!-- /wp:group -->
@@ -55,5 +54,4 @@ echo sprintf( esc_html__( '01100011 01101111 01100100 01100101%1$s01101001 01110
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /--></div>
-<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
