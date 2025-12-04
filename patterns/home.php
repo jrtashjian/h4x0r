@@ -22,8 +22,8 @@ echo sprintf( esc_html__( 'This site uses the %1$sh4x0r%2$s theme, originally bu
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'Search and comment forms are powered by %1$sOmniForm%2$s.%3$s%4$sInstall it on the plugins page%5$s.', 'h4x0r' ), '<a href="' . esc_url( 'https://omniform.io' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '/wp-admin/plugin-install.php?s=omniform&tab=search&type=term' ) . '" data-type="link" data-id="/wp-admin/plugin-install.php?s=omniform&tab=search&type=term">', '</a>' ); ?></p>
+<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( 'Search and comment forms are powered by %1$sOmniForm%2$s.%3$s%4$sInstall it on the plugins page%5$s.', 'h4x0r' ), '<strong>', '</strong>', '<br>', '<a href="' . esc_url( '/wp-admin/plugin-install.php?s=omniform&tab=search&type=term' ) . '" data-type="link" data-id="/wp-admin/plugin-install.php?s=omniform&tab=search&type=term">', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
