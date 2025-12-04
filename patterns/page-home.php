@@ -6,8 +6,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://pd.w.org/2024/08/36166c4cb9b3b2121.21644489-2048x1365.jpeg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<main class="wp-block-group"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-1024x683.jpeg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -20,8 +20,8 @@ echo sprintf( esc_html__( 'This site uses the %1$sh4x0r%2$s theme, originally bu
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'Search and comment forms are powered by %1$sOmniForm%2$s.%3$s%4$sInstall it on the plugins page%5$s.', 'h4x0r' ), '<a href="' . esc_url( 'https://omniform.io' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '/wp-admin/plugin-install.php?s=omniform&tab=search&type=term' ) . '" data-type="link" data-id="/wp-admin/plugin-install.php?s=omniform&tab=search&type=term">', '</a>' ); ?></p>
+<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( 'Search and comment forms are powered by %1$sOmniForm%2$s.%3$s%4$sInstall it on the plugins page%5$s.', 'h4x0r' ), '<strong>', '</strong>', '<br>', '<a href="' . esc_url( '/wp-admin/plugin-install.php?s=omniform&tab=search&type=term' ) . '" data-type="link" data-id="/wp-admin/plugin-install.php?s=omniform&tab=search&type=term">', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
@@ -37,15 +37,15 @@ echo sprintf( esc_html__( '01100011 01101111 01100100 01100101%1$s01101001 01110
 <!-- wp:query {"queryId":0,"query":{"perPage":"100","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top","orientation":"horizontal"}} -->
-<div class="wp-block-group"><!-- wp:post-date {"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+<div class="wp-block-group"><!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
 <!-- wp:post-title {"isLink":true,"className":"nowrap","style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"layout":{"selfStretch":"fill","flexSize":null}}} /--></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
 <!-- wp:query-no-results -->
-<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p></p>
+<!-- wp:paragraph -->
+<p><?php esc_html_e('No posts were found.', 'h4x0r');?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
