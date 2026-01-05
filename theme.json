@@ -308,6 +308,9 @@
 					}
 				}
 			},
+			"core/image": {
+				"css": "& img {\n  display: block;\n}"
+			},
 			"core/list": {
 				"css": "& {\n  padding-left: 3ch;\n}\n\n&:is(ul,ol) ul {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\n&:is(ul) > li::marker {\n  content: \"+ \";\n}"
 			},
