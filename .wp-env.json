@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "https://downloads.wordpress.org/plugin/create-block-theme.2.7.0.zip"
+        "https://downloads.wordpress.org/plugin/create-block-theme.2.8.0.zip"
     ],
     "themes": [
         "."
